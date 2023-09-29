@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b3c710-792c-4073-bdb4-32df36ae3636" name="Changes" comment="Add README">
-      <change afterPath="$PROJECT_DIR$/sql_scripts/flightCenterTables.sql" afterDir="false" />
+    <list default="true" id="05b3c710-792c-4073-bdb4-32df36ae3636" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/sql_scripts/dummyData.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_scripts/flightCenterTables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql_scripts/flightCenterTables.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +46,29 @@
     ]
   }
 }]]></component>
+  <component name="RunManager" selected="Database Script.dummyData.sql">
+    <configuration name="dummyData.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sql_scripts/dummyData.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="flightCenterTables.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sql_scripts/flightCenterTables.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.dummyData.sql" />
+        <item itemvalue="Database Script.flightCenterTables.sql" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b3c710-792c-4073-bdb4-32df36ae3636" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/sql_scripts/dummyData.sql" afterDir="false" />
+    <list default="true" id="05b3c710-792c-4073-bdb4-32df36ae3636" name="Changes" comment="Add Tables and add dummy data">
+      <change afterPath="$PROJECT_DIR$/sql_scripts/createFlight.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_scripts/flightCenterTables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql_scripts/flightCenterTables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql_scripts/dummyData.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql_scripts/dummyData.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,12 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Database Script.dummyData.sql">
+  <component name="RunManager" selected="Database Script.createFlight.sql">
+    <configuration name="createFlight.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sql_scripts/createFlight.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <configuration name="dummyData.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/sql_scripts/dummyData.sql" />
       <script-mode>FILE</script-mode>
@@ -59,6 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.createFlight.sql" />
         <item itemvalue="Database Script.dummyData.sql" />
         <item itemvalue="Database Script.flightCenterTables.sql" />
       </list>
@@ -69,6 +75,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add README" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Add Tables and add dummy data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Tables and add dummy data" />
   </component>
 </project>

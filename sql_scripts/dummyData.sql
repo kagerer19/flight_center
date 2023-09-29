@@ -20,23 +20,28 @@ INSERT INTO Distances (FromAirport, ToAirport, DistanceBetween) VALUES
 ('JFK', 'IBZ', 6000),
 ('VIE', 'IBZ', 1500);
 
-
 INSERT INTO Flights (FlightNumber, DepartTime, ArrivalTime, DaysOfOperation, AirlineCode, DepartAirportCode, ArrivalAirportCode) VALUES
 ('AAA001', '08:00:00', '12:00:00', 'Monday', 'AAA', 'VIE', 'JFK'),
 ('BBB001', '10:00:00', '14:00:00', 'Tuesday', 'BBB', 'JFK', 'IBZ'),
-('CCC001', '14:00:00', '16:00:00', 'Wednesday', 'CCC', 'VIE', 'IBZ');
+('BBB001', '10:00:00', '14:00:00', 'Wednesday', 'BBB', 'JFK', 'IBZ'),
+('BBB001', '10:00:00', '14:00:00', 'Tuesday', 'BBB', 'JFK', 'IBZ'),
+('BBB001', '10:00:00', '14:00:00', 'Monday', 'BBB', 'JFK', 'IBZ'),
+('BBB001', '10:00:00', '14:00:00', 'Tuesday', 'BBB', 'JFK', 'IBZ'),
+('BBB001', '10:00:00', '14:00:00', 'Thursday', 'BBB', 'JFK', 'IBZ'),
+('BBB001', '10:00:00', '14:00:00', 'Tuesday', 'BBB', 'JFK', 'IBZ'),
+('BBB001', '10:00:00', '14:00:00', 'Friday', 'BBB', 'JFK', 'IBZ'),
+('BBB001', '10:00:00', '14:00:00', 'Tuesday', 'BBB', 'JFK', 'IBZ'),
+('CCC001', '14:00:00', '16:00:00', 'Friday', 'CCC', 'VIE', 'IBZ');
 
 INSERT INTO Passengers (Name, Gender, Title) VALUES
 ('John Doe', 'M', 'Mr.'),
 ('Jane Smith', 'F', 'Ms.'),
 ('Sam Brown', 'M', 'Mr.');
 
-
 INSERT INTO Tickets (DateOfIssue, Price, Currency, SalesOffice, PassengerNumber, FlightNumber) VALUES
 ('2023-01-01', 500, 'USD', 'Online', 1, 'AAA001'),
 ('2023-01-02', 600, 'EUR', 'Office A', 2, 'BBB001'),
 ('2023-01-03', 300, 'EUR', 'Office B', 3, 'CCC001');
-
 
 INSERT INTO Seats (RowNum, SeatAsLetter, TypeID) VALUES
 (1, 'A', 1),
